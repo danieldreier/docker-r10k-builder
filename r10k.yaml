@@ -1,0 +1,9 @@
+---
+:cachedir: /var/cache/r10k
+:sources:
+  plops:
+    remote: /opt/dockermaster/src/site-repo
+    basedir: /opt/dockermaster/environments
+
+:purgedirs:
+  - /opt/dockermaster/environments
